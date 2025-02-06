@@ -1,9 +1,9 @@
 # pcb2gcode configuration file
 
 # input files
-back=ET3111_breakout-B_Cu.gbr
-drill=ET3111_breakout.drl
-outline=ET3111_breakout-Edge_Cuts.gbr
+back={REPLACE_WITH_PCB_NAME}-B_Cu.gbr
+drill={REPLACE_WITH_PCB_NAME}.drl
+outline={REPLACE_WITH_PCB_NAME}-Edge_Cuts.gbr
 
 # output files
 output-dir=gcode

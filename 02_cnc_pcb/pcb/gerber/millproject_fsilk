@@ -1,7 +1,7 @@
 # pcb2gcode configuration file
 
 # input files
-front=ET3111_breakout-F_Silkscreen.gbr
+front={REPLACE_WITH_PCB_NAME}-F_Silkscreen.gbr
 
 # output files
 output-dir=gcode

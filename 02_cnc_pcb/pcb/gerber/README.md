@@ -6,4 +6,4 @@ Edit `millproject` with filenames. Adjust mill diameter as needed.
 Run `pcb2gcode` to use millproject for creating backside milled PCB.
 
 For front silkscreen edit `millproject_fsilk` with filenames and x-offset.
-Run `pcb2gcode --config=milLproject_fsilk` to create front silkscreen gcode.
+Run `pcb2gcode --config milLproject_fsilk` to create front silkscreen gcode.

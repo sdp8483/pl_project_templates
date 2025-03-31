@@ -1,7 +1,7 @@
 # pcb2gcode configuration file
 
 # input files
-front={REPLACE_WITH_PCB_NAME}-F_Silkscreen.gbr
+front=REPLACE_WITH_PCB_NAME-F_Silkscreen.gbr
 
 # output files
 output-dir=gcode
@@ -22,7 +22,7 @@ nog64=1			# G64 throws error on grbl
 draw-gerber-lines=1	# used for silkscreen
 x-offset=-64		# used for front silkscreen
 mill-diameters=0.1mm
-isolation-width=1000mm
+#isolation-width=1000mm
 zwork=-0.1000mm
 mill-feed=120mm/min
 mill-vertfeed=60mm/min

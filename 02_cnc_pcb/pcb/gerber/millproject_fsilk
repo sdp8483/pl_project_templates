@@ -1,7 +1,7 @@
 # pcb2gcode configuration file
 
 # input files
-front=REPLACE_WITH_PCB_NAME-F_Silkscreen.gbr
+front=REPLACE_WITH_PCB_NAME-F_Silkscreen.gto
 
 # output files
 output-dir=gcode
@@ -26,7 +26,7 @@ mill-diameters=0.1mm
 zwork=-0.1000mm
 mill-feed=120mm/min
 mill-vertfeed=60mm/min
-mill-infeed=0.1000mm	# maximum z depth per pass
+mill-infeed=2.0000mm	# maximum z depth per pass
 mill-speed=13000	# spindle speed
 
 # Drilling and Milling Holes
